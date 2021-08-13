@@ -1,0 +1,197 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Validating login function with valid user name and valid password",
+        "description": "",
+        "id": "validating-login-function-of-adactin-website;validating-login-function-with-valid-user-name-and-valid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28396529201,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on adactin webpage",
+            "match": {
+              "location": "StepDef.user_is_on_adactin_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1376670301,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter the \"Sathyadhev\" and \"sathvika\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sathyadhev\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"sathvika\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDef.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3078414000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click login button",
+            "match": {
+              "location": "StepDef.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2399582200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should select hotels by\"Sydney\",\"Hotel Creek\",\"Double\",\"5 - Five\",\"12/08/2021\",\"\u003cCheckOUtDate\u003e\",\"1 - One\",\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"5 - Five\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"12/08/2021\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"\u003cCheckOUtDate\u003e\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 101
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 111
+                }
+              ],
+              "location": "StepDef.user_should_select_hotels_by(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1320815501,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "useer should click search button",
+            "match": {
+              "location": "StepDef.useer_should_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1647429501,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user confirmation for booking details",
+            "match": {
+              "location": "StepDef.user_confirmation_for_booking_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2771685701,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the \"Arjunan\",\"Mahadevan\",\"Kumbakonam\",\"1234567899876543\",\"VISA\",\"May\",\"2022\",\"666\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arjunan\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Mahadevan\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Kumbakonam\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"1234567899876543\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"666\"",
+                  "offset": 89
+                }
+              ],
+              "location": "StepDef.user_enter_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187166200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click book now button",
+            "match": {
+              "location": "StepDef.user_click_book_now_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "validating login function of Adactin website",
+    "description": "",
+    "id": "validating-login-function-of-adactin-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/adactin.feature",
+    "tags": []
+  }
+]

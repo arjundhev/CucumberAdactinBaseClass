@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.185583">
+    <testcase classname="validating login function of Adactin website" name="Validating login function with valid user name and valid password" time="41.185583">
+        <system-out><![CDATA[Given user is on adactin webpage............................................passed
+When user should enter the "Sathyadhev" and "sathvika"......................passed
+And user should click login button..........................................passed
+And user should select hotels by"Sydney","Hotel Creek","Double","5 - Five","12/08/2021","<CheckOUtDate>","1 - One","1 - One".passed
+And useer should click search button........................................passed
+And user confirmation for booking details...................................passed
+And user enter the "Arjunan","Mahadevan","Kumbakonam","1234567899876543","VISA","May","2022","666",.passed
+And user click book now button..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
